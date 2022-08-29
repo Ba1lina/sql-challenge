@@ -77,4 +77,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 # Contributors
 - [@jonathanneo](https://github.com/jonathanneo)
 - [@yourTeamMate1](https://github.com)
-- [@yourTeamMate2](https://github.com)
+- [@yourTeamMate2](https://github.com)<<<<<<< HEAD
