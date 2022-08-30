@@ -1,84 +1,20 @@
-# project_test
+# SQL Challenge
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+It’s been two weeks since I was hired as a new data engineer at Pewlett Hackard. My first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
 # Project structure
 ```
-project 
-|__ .gitignore          # gitignore file
-|__ requirements.txt         # conda environment
-| 
-|__ data/               # contains raw and cleaned data
-|   |__ raw.csv         # raw data
-|   |__ cleaned.csv     # cleaned data
+sql-challenge
+|__ data/               # contains six CSV files
+|   |__ departments.csv # department data
+|   |__ dept_emp.csv    # joint table of employees and departments
+|   |__ dept_manager.csv# joint table of departments managers
+|   |__ employees.csv   # employees data
+|   |__ salaries.csv    # table of employees' salaries
+|   |__ titles.csv      # table of employees' titles
 |
-|__ notebooks/
-|   |__ cleaning.ipynb  # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
-|   |__ analysis.ipynb  # analysis notebook that contains charts 
-|
-|__ images/             # contains snippets from jupyter notebook
-|
-|__ proposal/
-|   |__ proposal.md     # project proposal 
-
+|__ ERD.png             # ERD of database
+|__ table_schemata.sql  # Schemata of tables for PostgreSQL
+|__ Queries.sql         # Queries made of the data
 ```
 
-# Usage
-
-Create an environment using requirements file and activate environment 
-```
-# create environment 
-conda create --name <env_name> --file requirements.txt
-
-# activate environment
-conda activate <envname>
-```
-
-Export an environment modules to a txt file
-```
-pip freeze > requirements.txt
-```
-
-# Questions 
-
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit? 
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua? 
-3. Ut enim ad minim veniam, quis nostrud exercitation? 
-
-
-# Datasets 
-
-|No|Source|Link|
-|-|-|-|
-|1|Australian Government Open Source Datasets|https://data.gov.au/|
-|2|Kaggle Open Source Datasets|https://www.kaggle.com/datasets|
-
-
-# Analysis
-
-### Question 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit? 
-
-![chart](images/matplotlib.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Question 2: sed do eiusmod tempor incididunt ut labore et dolore magna aliqua? 
-
-![chart](images/matplotlib.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Question 3: Ut enim ad minim veniam, quis nostrud exercitation? 
-
-![chart](images/matplotlib.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-# Contributors
-- [@jonathanneo](https://github.com/jonathanneo)
-- [@yourTeamMate1](https://github.com)
-<<<<<<< HEAD
-- [@yourTeamMate2](https://github.com)
-=======
-- [@yourTeamMate2](https://github.com)
->>>>>>> dcceb517a60b3de56be3f9ae4f456c98e74a07d1
